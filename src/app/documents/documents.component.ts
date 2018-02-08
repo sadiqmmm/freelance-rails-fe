@@ -6,6 +6,11 @@ import { Document } from './document';
 	templateUrl: 'documents.component.html'
 })
 export class DocumentsComponent {
+
+	// Hardcoded params
+	pageTitle: string = "Document Dashboard"
+
+	// interface
 	documents: Document[] = [
 		{
 			title: "My first Document",
